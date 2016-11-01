@@ -1,0 +1,33 @@
+<ion-side-menus enable-menu-with-back-views="true">
+
+  <ion-side-menu-content>
+    <ion-nav-bar align-title="center" class="bar bar-header bar-positive">
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon-round" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+
+    </ion-nav-bar>
+
+    <ion-nav-view name="menuContent" cache-view="false"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+
+    <ion-header-bar>
+     <h1 class="header-title">My app</h1> 
+    </ion-header-bar>
+
+    <ion-content has-header="true">
+      <ul class="list">
+        <!-- Note each link has the 'menu-close' attribute so the menu auto closes when clicking on one of these links -->
+        <li class="item">
+          <a href="#/app/main" menu-close>Home</a>
+        </li>
+        
+      </ul>
+    </ion-content>
+  </ion-side-menu>
+
+</ion-side-menus>
